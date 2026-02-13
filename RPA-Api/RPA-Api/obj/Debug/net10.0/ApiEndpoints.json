@@ -1,0 +1,28 @@
+[
+  {
+    "ContainingType": "RPA_Api.Controllers.ResumeController",
+    "Method": "Get",
+    "RelativePath": "api/Resume",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RPA_Api.Controllers.ResumeController",
+    "Method": "Upload",
+    "RelativePath": "api/Resume/upload",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "RPA_Api.Model.ResumeUploadRequest",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

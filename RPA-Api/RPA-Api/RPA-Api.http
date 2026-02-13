@@ -1,0 +1,6 @@
+@RPA_Api_HostAddress = http://localhost:5076
+
+GET {{RPA_Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

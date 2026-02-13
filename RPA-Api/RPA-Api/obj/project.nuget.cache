@@ -1,0 +1,130 @@
+{
+  "version": 2,
+  "dgSpecHash": "oEywF68jF44=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Davina\\Documents\\Projects\\RPA-ApplicationProcess\\RPA-Api\\RPA-Api\\RPA-Api.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Davina\\.nuget\\packages\\firebaseadmin\\3.4.0\\firebaseadmin.3.4.0.nupkg.sha512",
+    "C:\\Users\\Davina\\.nuget\\packages\\google.api.commonprotos\\2.17.0\\google.api.commonprotos.2.17.0.nupkg.sha512",
+    "C:\\Users\\Davina\\.nuget\\packages\\google.api.gax\\4.12.1\\google.api.gax.4.12.1.nupkg.sha512",
+    "C:\\Users\\Davina\\.nuget\\packages\\google.api.gax.grpc\\4.12.1\\google.api.gax.grpc.4.12.1.nupkg.sha512",
+    "C:\\Users\\Davina\\.nuget\\packages\\google.api.gax.rest\\4.9.0\\google.api.gax.rest.4.9.0.nupkg.sha512",
+    "C:\\Users\\Davina\\.nuget\\packages\\google.apis\\1.73.0\\google.apis.1.73.0.nupkg.sha512",
+    "C:\\Users\\Davina\\.nuget\\packages\\google.apis.auth\\1.73.0\\google.apis.auth.1.73.0.nupkg.sha512",
+    "C:\\Users\\Davina\\.nuget\\packages\\google.apis.core\\1.73.0\\google.apis.core.1.73.0.nupkg.sha512",
+    "C:\\Users\\Davina\\.nuget\\packages\\google.apis.storage.v1\\1.69.0.3707\\google.apis.storage.v1.1.69.0.3707.nupkg.sha512",
+    "C:\\Users\\Davina\\.nuget\\packages\\google.cloud.firestore\\4.1.0\\google.cloud.firestore.4.1.0.nupkg.sha512",
+    "C:\\Users\\Davina\\.nuget\\packages\\google.cloud.firestore.v1\\4.1.0\\google.cloud.firestore.v1.4.1.0.nupkg.sha512",
+    "C:\\Users\\Davina\\.nuget\\packages\\google.cloud.location\\2.4.0\\google.cloud.location.2.4.0.nupkg.sha512",
+    "C:\\Users\\Davina\\.nuget\\packages\\google.cloud.storage.v1\\4.13.0\\google.cloud.storage.v1.4.13.0.nupkg.sha512",
+    "C:\\Users\\Davina\\.nuget\\packages\\google.longrunning\\3.5.0\\google.longrunning.3.5.0.nupkg.sha512",
+    "C:\\Users\\Davina\\.nuget\\packages\\google.protobuf\\3.31.1\\google.protobuf.3.31.1.nupkg.sha512",
+    "C:\\Users\\Davina\\.nuget\\packages\\grpc.auth\\2.71.0\\grpc.auth.2.71.0.nupkg.sha512",
+    "C:\\Users\\Davina\\.nuget\\packages\\grpc.core.api\\2.71.0\\grpc.core.api.2.71.0.nupkg.sha512",
+    "C:\\Users\\Davina\\.nuget\\packages\\grpc.net.client\\2.71.0\\grpc.net.client.2.71.0.nupkg.sha512",
+    "C:\\Users\\Davina\\.nuget\\packages\\grpc.net.common\\2.71.0\\grpc.net.common.2.71.0.nupkg.sha512",
+    "C:\\Users\\Davina\\.nuget\\packages\\microsoft.aspnet.webapi.client\\4.0.20710\\microsoft.aspnet.webapi.client.4.0.20710.nupkg.sha512",
+    "C:\\Users\\Davina\\.nuget\\packages\\microsoft.aspnet.webapi.core\\4.0.20710\\microsoft.aspnet.webapi.core.4.0.20710.nupkg.sha512",
+    "C:\\Users\\Davina\\.nuget\\packages\\microsoft.aspnet.webapi.webhost\\4.0.20710\\microsoft.aspnet.webapi.webhost.4.0.20710.nupkg.sha512",
+    "C:\\Users\\Davina\\.nuget\\packages\\microsoft.aspnetcore.openapi\\10.0.2\\microsoft.aspnetcore.openapi.10.0.2.nupkg.sha512",
+    "C:\\Users\\Davina\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\10.0.0\\microsoft.bcl.asyncinterfaces.10.0.0.nupkg.sha512",
+    "C:\\Users\\Davina\\.nuget\\packages\\microsoft.net.http\\2.0.20710\\microsoft.net.http.2.0.20710.nupkg.sha512",
+    "C:\\Users\\Davina\\.nuget\\packages\\microsoft.openapi\\2.3.0\\microsoft.openapi.2.3.0.nupkg.sha512",
+    "C:\\Users\\Davina\\.nuget\\packages\\microsoft.web.infrastructure\\1.0.0\\microsoft.web.infrastructure.1.0.0.nupkg.sha512",
+    "C:\\Users\\Davina\\.nuget\\packages\\newtonsoft.json\\13.0.4\\newtonsoft.json.13.0.4.nupkg.sha512",
+    "C:\\Users\\Davina\\.nuget\\packages\\swashbuckle\\5.6.0\\swashbuckle.5.6.0.nupkg.sha512",
+    "C:\\Users\\Davina\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\10.1.0\\swashbuckle.aspnetcore.swagger.10.1.0.nupkg.sha512",
+    "C:\\Users\\Davina\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\10.1.0\\swashbuckle.aspnetcore.swaggergen.10.1.0.nupkg.sha512",
+    "C:\\Users\\Davina\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\10.1.0\\swashbuckle.aspnetcore.swaggerui.10.1.0.nupkg.sha512",
+    "C:\\Users\\Davina\\.nuget\\packages\\swashbuckle.core\\5.6.0\\swashbuckle.core.5.6.0.nupkg.sha512",
+    "C:\\Users\\Davina\\.nuget\\packages\\system.codedom\\7.0.0\\system.codedom.7.0.0.nupkg.sha512",
+    "C:\\Users\\Davina\\.nuget\\packages\\system.management\\7.0.2\\system.management.7.0.2.nupkg.sha512",
+    "C:\\Users\\Davina\\.nuget\\packages\\webactivatorex\\2.0.0\\webactivatorex.2.0.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "message": "Package 'Microsoft.AspNet.WebApi.Client 4.0.20710' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net10.0'. This package may not be fully compatible with your project.",
+      "projectPath": "C:\\Users\\Davina\\Documents\\Projects\\RPA-ApplicationProcess\\RPA-Api\\RPA-Api\\RPA-Api.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\Davina\\Documents\\Projects\\RPA-ApplicationProcess\\RPA-Api\\RPA-Api\\RPA-Api.csproj",
+      "libraryId": "Microsoft.AspNet.WebApi.Client",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "message": "Package 'Microsoft.AspNet.WebApi.Core 4.0.20710' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net10.0'. This package may not be fully compatible with your project.",
+      "projectPath": "C:\\Users\\Davina\\Documents\\Projects\\RPA-ApplicationProcess\\RPA-Api\\RPA-Api\\RPA-Api.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\Davina\\Documents\\Projects\\RPA-ApplicationProcess\\RPA-Api\\RPA-Api\\RPA-Api.csproj",
+      "libraryId": "Microsoft.AspNet.WebApi.Core",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "message": "Package 'Microsoft.AspNet.WebApi.WebHost 4.0.20710' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net10.0'. This package may not be fully compatible with your project.",
+      "projectPath": "C:\\Users\\Davina\\Documents\\Projects\\RPA-ApplicationProcess\\RPA-Api\\RPA-Api\\RPA-Api.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\Davina\\Documents\\Projects\\RPA-ApplicationProcess\\RPA-Api\\RPA-Api\\RPA-Api.csproj",
+      "libraryId": "Microsoft.AspNet.WebApi.WebHost",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "message": "Package 'Microsoft.Net.Http 2.0.20710' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net10.0'. This package may not be fully compatible with your project.",
+      "projectPath": "C:\\Users\\Davina\\Documents\\Projects\\RPA-ApplicationProcess\\RPA-Api\\RPA-Api\\RPA-Api.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\Davina\\Documents\\Projects\\RPA-ApplicationProcess\\RPA-Api\\RPA-Api\\RPA-Api.csproj",
+      "libraryId": "Microsoft.Net.Http",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "message": "Package 'Microsoft.Web.Infrastructure 1.0.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net10.0'. This package may not be fully compatible with your project.",
+      "projectPath": "C:\\Users\\Davina\\Documents\\Projects\\RPA-ApplicationProcess\\RPA-Api\\RPA-Api\\RPA-Api.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\Davina\\Documents\\Projects\\RPA-ApplicationProcess\\RPA-Api\\RPA-Api\\RPA-Api.csproj",
+      "libraryId": "Microsoft.Web.Infrastructure",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "message": "Package 'Swashbuckle.Core 5.6.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net10.0'. This package may not be fully compatible with your project.",
+      "projectPath": "C:\\Users\\Davina\\Documents\\Projects\\RPA-ApplicationProcess\\RPA-Api\\RPA-Api\\RPA-Api.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\Davina\\Documents\\Projects\\RPA-ApplicationProcess\\RPA-Api\\RPA-Api\\RPA-Api.csproj",
+      "libraryId": "Swashbuckle.Core",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "message": "Package 'WebActivatorEx 2.0.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net10.0'. This package may not be fully compatible with your project.",
+      "projectPath": "C:\\Users\\Davina\\Documents\\Projects\\RPA-ApplicationProcess\\RPA-Api\\RPA-Api\\RPA-Api.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\Davina\\Documents\\Projects\\RPA-ApplicationProcess\\RPA-Api\\RPA-Api\\RPA-Api.csproj",
+      "libraryId": "WebActivatorEx",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    }
+  ]
+}
