@@ -1,4 +1,3 @@
-using FirebaseAdmin;
 using Google.Apis.Auth.OAuth2;
 using Google.Cloud.Firestore;
 using Google.Cloud.Storage.V1;
@@ -9,57 +8,64 @@ using System.Reflection;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
-
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
-// Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
-//builder.Services.AddOpenApi();
 
-
-
-
-builder.Services.AddSingleton(provider =>
+// ---- Google Credentials (from relative path) ----
+builder.Services.AddSingleton(sp =>
 {
-    var projectId = builder.Configuration["Firebase:ProjectId"]
-        ?? throw new InvalidOperationException("Firebase:ProjectId is missing.");
+    var config = sp.GetRequiredService<IConfiguration>();
 
-    // Firestore client uses GOOGLE_APPLICATION_CREDENTIALS implicitly (recommended).
-    return FirestoreDb.Create(projectId);
+    var relPath = config["Google:ServiceAccountKeyPath"]
+        ?? throw new InvalidOperationException("Missing config: Google:ServiceAccountKeyPath");
+
+    var fullPath = Path.Combine(builder.Environment.ContentRootPath, relPath);
+
+    if (!File.Exists(fullPath))
+        throw new FileNotFoundException($"Service account key not found at: {fullPath}");
+
+    return GoogleCredential
+        .FromFile(fullPath)
+        .CreateScoped("https://www.googleapis.com/auth/cloud-platform");
 });
 
-builder.Services.AddSingleton(_ => StorageClient.Create());
-
-builder.Services.AddSingleton(provider =>
+// ---- Firestore ----
+builder.Services.AddSingleton<FirestoreDb>(sp =>
 {
-    // Initialise FirebaseAdmin only once.
-    // Uses GOOGLE_APPLICATION_CREDENTIALS if set, otherwise will throw.
-    if (FirebaseApp.DefaultInstance != null) return FirebaseApp.DefaultInstance;
+    var config = sp.GetRequiredService<IConfiguration>();
+    var projectId = config["Firebase:ProjectId"]
+        ?? throw new InvalidOperationException("Missing config: firebase:ProjectId");
 
-    return FirebaseApp.Create(new AppOptions
+    var credential = sp.GetRequiredService<GoogleCredential>();
+
+    return new FirestoreDbBuilder
     {
-        Credential = GoogleCredential.GetApplicationDefault()
-    });
+        ProjectId = projectId,
+        Credential = credential
+    }.Build();
 });
 
+// ---- Cloud Storage ----
+builder.Services.AddSingleton<StorageClient>(sp =>
+{
+    var credential = sp.GetRequiredService<GoogleCredential>();
+    return new StorageClientBuilder { Credential = credential }.Build();
+});
+
+// ---- Your services ----
 builder.Services.AddScoped<IResumeStorageService, FirebaseResumeStorageService>();
 builder.Services.AddScoped<IResumeRepository, FirestoreResumeRepository>();
 
-
-
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
-    app.MapOpenApi();
     app.UseSwagger();
     app.UseSwaggerUI();
 }
 
 app.UseHttpsRedirection();
-
 app.UseAuthorization();
 
 try

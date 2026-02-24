@@ -1,4 +1,6 @@
-﻿namespace RPA_Api.IService
+﻿using RPA_Api.Model;
+
+namespace RPA_Api.IService
 {
     public interface IResumeStorageService
     {
@@ -8,5 +10,9 @@
         string contentType,
         Stream content,
         CancellationToken ct);
+
+        Task<ResumeCollection> GetResumesByUserId(string userId);
     }
+
+   
 }

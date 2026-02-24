@@ -1,13 +1,29 @@
 [
   {
     "ContainingType": "RPA_Api.Controllers.ResumeController",
-    "Method": "Get",
+    "Method": "GetResumeByUserId",
     "RelativePath": "api/Resume",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": []
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "RPA_Api.Model.ResumeCollection",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
   },
   {
     "ContainingType": "RPA_Api.Controllers.ResumeController",
@@ -18,8 +34,13 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "request",
-        "Type": "RPA_Api.Model.ResumeUploadRequest",
+        "Name": "File",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      },
+      {
+        "Name": "UserId",
+        "Type": "System.String",
         "IsRequired": false
       }
     ],

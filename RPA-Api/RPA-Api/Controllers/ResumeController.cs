@@ -2,6 +2,7 @@
 using RPA_Api.IService;
 using RPA_Api.Model;
 using RPA_Api.Repository;
+using static Google.Rpc.Context.AttributeContext.Types;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -23,26 +24,33 @@ namespace RPA_Api.Controllers
         }
 
         [HttpGet]
-        public IActionResult Get() => Ok("pong");
+        public async Task<ActionResult<ResumeCollection>> GetResumeByUserId(String userId)
+        {
+            if (string.IsNullOrWhiteSpace(userId) || userId.Equals("string"))
+            {
+                return BadRequest(new {error="NoUid"});
+            }
+
+           var response = await _storage.GetResumesByUserId(userId);
+
+            return Ok(response);
+        }
 
 
         [HttpPost("upload")]
         [RequestSizeLimit(20_000_000)]
         public async Task<IActionResult> Upload([FromForm]ResumeUploadRequest request)
         {
-            if (string.IsNullOrWhiteSpace(request.UserId))
-                return BadRequest(new { error = "userId is required." });
+            if (string.IsNullOrWhiteSpace(request.UserId)||request.UserId.Equals("string"))
+            {
+                request.UserId = Guid.NewGuid().ToString();
+            }
+                
 
             if (request.File == null || request.File.Length == 0)
                 return BadRequest(new { error = "No file provided." });
 
-            var allowedTypes = _config.GetSection("Uploads:AllowedContentTypes").Get<string[]>() ?? Array.Empty<string>();
-            if (!allowedTypes.Contains(request.File.ContentType, StringComparer.OrdinalIgnoreCase))
-                return BadRequest(new { error = $"Unsupported content type: {request.File.ContentType}. Allowed: {string.Join(", ", allowedTypes)}" });
 
-            var maxBytes = _config.GetValue<long>("Uploads:MaxFileSizeBytes");
-            if (request.File.Length > maxBytes)
-                return BadRequest(new { error = $"File too large. Max {maxBytes} bytes." });
 
             var resumeId = Guid.NewGuid().ToString("N");
 
@@ -66,14 +74,19 @@ namespace RPA_Api.Controllers
                 Status = "Uploaded"
             };
 
-            await _repo.CreateAsync(record, request.CT);
+            //await _repo.CreateAsync(record, request.CT);
 
             return Ok(new
             {
+                UserId = record.UserId,
                 resumeId,
                 storagePath,
                 status = record.Status
             });
         }
+
+
+
+
     }
 }

@@ -10,5 +10,6 @@
         public string StoragePath { get; set; } = default!;
         public DateTimeOffset UploadedAt { get; set; }
         public string Status { get; set; } = "Uploaded"; // Uploaded | Analysing | Analysed | Failed
+        public DateTime CreatedUtc { get; internal set; }
     }
 }
