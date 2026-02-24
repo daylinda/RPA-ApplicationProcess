@@ -56,6 +56,8 @@ builder.Services.AddSingleton<StorageClient>(sp =>
 // ---- Your services ----
 builder.Services.AddScoped<IResumeStorageService, FirebaseResumeStorageService>();
 builder.Services.AddScoped<IResumeRepository, FirestoreResumeRepository>();
+//builder.Services.AddScoped<IUserService,UserService>();
+builder.Services.AddScoped<IUserRepository, FirestoreUserRepository>();
 
 var app = builder.Build();
 

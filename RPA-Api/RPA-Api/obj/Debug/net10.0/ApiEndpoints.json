@@ -45,5 +45,21 @@
       }
     ],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RPA_Api.Controllers.UserController",
+    "Method": "Upload",
+    "RelativePath": "api/User",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "RPA_Api.Model.UserRecord",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
   }
 ]

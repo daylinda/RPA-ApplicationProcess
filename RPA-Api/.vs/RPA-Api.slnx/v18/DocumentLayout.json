@@ -1,12 +1,175 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Davina\\Documents\\Projects\\RPA-ApplicationProcess\\RPA-Api\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6D2A9B87-8AD2-7740-845D-14E2F6E31CEB}|RPA-Api\\RPA-Api.csproj|c:\\users\\davina\\documents\\projects\\rpa-applicationprocess\\rpa-api\\rpa-api\\model\\userrecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D2A9B87-8AD2-7740-845D-14E2F6E31CEB}|RPA-Api\\RPA-Api.csproj|solutionrelative:rpa-api\\model\\userrecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D2A9B87-8AD2-7740-845D-14E2F6E31CEB}|RPA-Api\\RPA-Api.csproj|c:\\users\\davina\\documents\\projects\\rpa-applicationprocess\\rpa-api\\rpa-api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D2A9B87-8AD2-7740-845D-14E2F6E31CEB}|RPA-Api\\RPA-Api.csproj|solutionrelative:rpa-api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D2A9B87-8AD2-7740-845D-14E2F6E31CEB}|RPA-Api\\RPA-Api.csproj|c:\\users\\davina\\documents\\projects\\rpa-applicationprocess\\rpa-api\\rpa-api\\repository\\firestoreuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D2A9B87-8AD2-7740-845D-14E2F6E31CEB}|RPA-Api\\RPA-Api.csproj|solutionrelative:rpa-api\\repository\\firestoreuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D2A9B87-8AD2-7740-845D-14E2F6E31CEB}|RPA-Api\\RPA-Api.csproj|c:\\users\\davina\\documents\\projects\\rpa-applicationprocess\\rpa-api\\rpa-api\\model\\resumerecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D2A9B87-8AD2-7740-845D-14E2F6E31CEB}|RPA-Api\\RPA-Api.csproj|solutionrelative:rpa-api\\model\\resumerecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D2A9B87-8AD2-7740-845D-14E2F6E31CEB}|RPA-Api\\RPA-Api.csproj|c:\\users\\davina\\documents\\projects\\rpa-applicationprocess\\rpa-api\\rpa-api\\repository\\firestoreresumerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D2A9B87-8AD2-7740-845D-14E2F6E31CEB}|RPA-Api\\RPA-Api.csproj|solutionrelative:rpa-api\\repository\\firestoreresumerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D2A9B87-8AD2-7740-845D-14E2F6E31CEB}|RPA-Api\\RPA-Api.csproj|c:\\users\\davina\\documents\\projects\\rpa-applicationprocess\\rpa-api\\rpa-api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D2A9B87-8AD2-7740-845D-14E2F6E31CEB}|RPA-Api\\RPA-Api.csproj|solutionrelative:rpa-api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D2A9B87-8AD2-7740-845D-14E2F6E31CEB}|RPA-Api\\RPA-Api.csproj|c:\\users\\davina\\documents\\projects\\rpa-applicationprocess\\rpa-api\\rpa-api\\controllers\\resumecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D2A9B87-8AD2-7740-845D-14E2F6E31CEB}|RPA-Api\\RPA-Api.csproj|solutionrelative:rpa-api\\controllers\\resumecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D2A9B87-8AD2-7740-845D-14E2F6E31CEB}|RPA-Api\\RPA-Api.csproj|c:\\users\\davina\\documents\\projects\\rpa-applicationprocess\\rpa-api\\rpa-api\\services\\firebaseresumestorageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D2A9B87-8AD2-7740-845D-14E2F6E31CEB}|RPA-Api\\RPA-Api.csproj|solutionrelative:rpa-api\\services\\firebaseresumestorageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D2A9B87-8AD2-7740-845D-14E2F6E31CEB}|RPA-Api\\RPA-Api.csproj|c:\\users\\davina\\documents\\projects\\rpa-applicationprocess\\rpa-api\\rpa-api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{6D2A9B87-8AD2-7740-845D-14E2F6E31CEB}|RPA-Api\\RPA-Api.csproj|solutionrelative:rpa-api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Davina\\Documents\\Projects\\RPA-ApplicationProcess\\RPA-Api\\RPA-Api\\Program.cs",
+              "RelativeDocumentMoniker": "RPA-Api\\Program.cs",
+              "ToolTip": "C:\\Users\\Davina\\Documents\\Projects\\RPA-ApplicationProcess\\RPA-Api\\RPA-Api\\Program.cs",
+              "RelativeToolTip": "RPA-Api\\Program.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAAAAADsAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-24T04:29:30.939Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ResumeRecord.cs",
+              "DocumentMoniker": "C:\\Users\\Davina\\Documents\\Projects\\RPA-ApplicationProcess\\RPA-Api\\RPA-Api\\Model\\ResumeRecord.cs",
+              "RelativeDocumentMoniker": "RPA-Api\\Model\\ResumeRecord.cs",
+              "ToolTip": "C:\\Users\\Davina\\Documents\\Projects\\RPA-ApplicationProcess\\RPA-Api\\RPA-Api\\Model\\ResumeRecord.cs",
+              "RelativeToolTip": "RPA-Api\\Model\\ResumeRecord.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-24T09:28:51.353Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FirestoreResumeRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Davina\\Documents\\Projects\\RPA-ApplicationProcess\\RPA-Api\\RPA-Api\\Repository\\FirestoreResumeRepository.cs",
+              "RelativeDocumentMoniker": "RPA-Api\\Repository\\FirestoreResumeRepository.cs",
+              "ToolTip": "C:\\Users\\Davina\\Documents\\Projects\\RPA-ApplicationProcess\\RPA-Api\\RPA-Api\\Repository\\FirestoreResumeRepository.cs",
+              "RelativeToolTip": "RPA-Api\\Repository\\FirestoreResumeRepository.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAjwA4AAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-24T09:51:05.975Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FirestoreUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Davina\\Documents\\Projects\\RPA-ApplicationProcess\\RPA-Api\\RPA-Api\\Repository\\FirestoreUserRepository.cs",
+              "RelativeDocumentMoniker": "RPA-Api\\Repository\\FirestoreUserRepository.cs",
+              "ToolTip": "C:\\Users\\Davina\\Documents\\Projects\\RPA-ApplicationProcess\\RPA-Api\\RPA-Api\\Repository\\FirestoreUserRepository.cs",
+              "RelativeToolTip": "RPA-Api\\Repository\\FirestoreUserRepository.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwA8AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-24T09:30:16.692Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserRecord.cs",
+              "DocumentMoniker": "C:\\Users\\Davina\\Documents\\Projects\\RPA-ApplicationProcess\\RPA-Api\\RPA-Api\\Model\\UserRecord.cs",
+              "RelativeDocumentMoniker": "RPA-Api\\Model\\UserRecord.cs",
+              "ToolTip": "C:\\Users\\Davina\\Documents\\Projects\\RPA-ApplicationProcess\\RPA-Api\\RPA-Api\\Model\\UserRecord.cs",
+              "RelativeToolTip": "RPA-Api\\Model\\UserRecord.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAwBcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-24T09:17:54.122Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\Davina\\Documents\\Projects\\RPA-ApplicationProcess\\RPA-Api\\RPA-Api\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "RPA-Api\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\Davina\\Documents\\Projects\\RPA-ApplicationProcess\\RPA-Api\\RPA-Api\\Controllers\\UserController.cs",
+              "RelativeToolTip": "RPA-Api\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-24T09:43:08.906Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ResumeController.cs",
+              "DocumentMoniker": "C:\\Users\\Davina\\Documents\\Projects\\RPA-ApplicationProcess\\RPA-Api\\RPA-Api\\Controllers\\ResumeController.cs",
+              "RelativeDocumentMoniker": "RPA-Api\\Controllers\\ResumeController.cs",
+              "ToolTip": "C:\\Users\\Davina\\Documents\\Projects\\RPA-ApplicationProcess\\RPA-Api\\RPA-Api\\Controllers\\ResumeController.cs",
+              "RelativeToolTip": "RPA-Api\\Controllers\\ResumeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAABWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-24T09:45:54.168Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Davina\\Documents\\Projects\\RPA-ApplicationProcess\\RPA-Api\\RPA-Api\\appsettings.json",
+              "RelativeDocumentMoniker": "RPA-Api\\appsettings.json",
+              "ToolTip": "C:\\Users\\Davina\\Documents\\Projects\\RPA-ApplicationProcess\\RPA-Api\\RPA-Api\\appsettings.json",
+              "RelativeToolTip": "RPA-Api\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-02-24T04:29:29.868Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "FirebaseResumeStorageService.cs",
+              "DocumentMoniker": "C:\\Users\\Davina\\Documents\\Projects\\RPA-ApplicationProcess\\RPA-Api\\RPA-Api\\Services\\FirebaseResumeStorageService.cs",
+              "RelativeDocumentMoniker": "RPA-Api\\Services\\FirebaseResumeStorageService.cs",
+              "ToolTip": "C:\\Users\\Davina\\Documents\\Projects\\RPA-ApplicationProcess\\RPA-Api\\RPA-Api\\Services\\FirebaseResumeStorageService.cs",
+              "RelativeToolTip": "RPA-Api\\Services\\FirebaseResumeStorageService.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAA5wD0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-24T04:24:01.412Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

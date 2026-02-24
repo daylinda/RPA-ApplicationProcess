@@ -74,7 +74,7 @@ namespace RPA_Api.Controllers
                 Status = "Uploaded"
             };
 
-            //await _repo.CreateAsync(record, request.CT);
+            await _repo.CreateAsync(record, request.CT);
 
             return Ok(new
             {
