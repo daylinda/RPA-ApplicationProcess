@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "Job Application Tracker",
+  "version": "0.1.0",
+  "action": {
+    "default_title": "Job Tracker",
+    "default_popup": "../src/popup/popup.html"
+  },
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  },
+  "permissions": ["storage", "tabs", "notifications", "scripting"],
+  "host_permissions": ["<all_urls>"],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}
