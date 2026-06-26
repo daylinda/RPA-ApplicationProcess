@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RPA-Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2938cdf09b673788526ced59cb79c28344202b0d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dcfe510e3ec9bcc332438d5a36f91e4ea63db3aa")]
 [assembly: System.Reflection.AssemblyProductAttribute("RPA-Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RPA-Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

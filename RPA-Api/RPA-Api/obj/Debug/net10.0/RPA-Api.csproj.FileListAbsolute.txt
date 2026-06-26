@@ -1,6 +1,5 @@
 C:\Users\Davina\Documents\Projects\RPA-ApplicationProcess\RPA-Api\RPA-Api\bin\Debug\net10.0\appsettings.Development.json
 C:\Users\Davina\Documents\Projects\RPA-ApplicationProcess\RPA-Api\RPA-Api\bin\Debug\net10.0\appsettings.json
-C:\Users\Davina\Documents\Projects\RPA-ApplicationProcess\RPA-Api\RPA-Api\bin\Debug\net10.0\secrets\firebase-service-account.json
 C:\Users\Davina\Documents\Projects\RPA-ApplicationProcess\RPA-Api\RPA-Api\bin\Debug\net10.0\RPA-Api.staticwebassets.endpoints.json
 C:\Users\Davina\Documents\Projects\RPA-ApplicationProcess\RPA-Api\RPA-Api\bin\Debug\net10.0\RPA-Api.exe
 C:\Users\Davina\Documents\Projects\RPA-ApplicationProcess\RPA-Api\RPA-Api\bin\Debug\net10.0\RPA-Api.deps.json

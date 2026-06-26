@@ -24,7 +24,16 @@ function looksLikeSubmissionPage(allText: string) {
     "we have received your application",
     "application complete",
     "application successfully",
-    "nice work" // <-- add this for your screenshot
+    "nice work", // <-- add this for your screenshot
+    // Additional ATS-specific phrases
+    "you've applied",
+    "you have applied",
+    "you applied",
+    "thanks for applying",
+    "thank you for your interest",
+    "your submission was received",
+    "you have successfully submitted",
+    "congrats, you applied"
   ];
 
   return phrases.some((p) => t.includes(p));

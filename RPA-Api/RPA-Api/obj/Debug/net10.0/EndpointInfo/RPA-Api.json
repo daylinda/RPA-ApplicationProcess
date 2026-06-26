@@ -195,6 +195,7 @@
           },
           "phoneNumber": {
             "minLength": 1,
+            "pattern": "^(?:\\+61|0)4\\d{8}$",
             "type": "string",
             "format": "tel"
           }
